@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1573207770 source:/home/student/proiect/func.c
+	<stdio.h>
+
+1573207787 source:/home/student/proiect/main.c
+	<stdio.h>
+	"func.h"
+
+1573207788 /home/student/proiect/func.h
+
