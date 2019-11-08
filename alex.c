@@ -1,16 +1,16 @@
 #include<stdio.h>
-void sort_et_pret_cresc(int v[101],int &n)
+void sort_et_pret_cresc(int v[101],int n)
 {
-bool s;
-int i,aux
+int s;
+int i,aux;
  do{
-        s = false;
+        s = 0;
         for (i = 1; i < n; i++){
             if (v[i - 1] > v[i]){
                 aux = v[i - 1];
                 v[i - 1] = v[i];
                 v[i] = aux;
-                s = true;
+                s = 1;
             }
         }
     } while (s);

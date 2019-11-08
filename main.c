@@ -8,7 +8,7 @@ int main() {
      int et , p, m[11][101];
      printf("Introduceti numarul de etaje:"); scanf("%d", &et);
      printf("Introduceti numarul de persoane pe etaj:"); scanf("%d", &p);
-     int i,j;
+     int i,j,k;
      for(i = 0; i<et; i++)
         for(j=0; j<p; j++)
         {
