@@ -8,15 +8,21 @@
 
 1573207788 /home/student/proiect/func.h
 
-1573211850 source:/home/student/ProiectC/main.c
+1573213495 source:/home/student/ProiectC/main.c
 	<stdio.h>
 	"func.h"
 
-1573209273 /home/student/ProiectC/func.h
+1573209220 /home/student/ProiectC/func.h
 
-1573209273 source:/home/student/ProiectC/func.c
+1573209220 source:/home/student/ProiectC/func.c
 	<stdio.h>
 
 1573210099 source:/home/student/proiect/alex.c
+	<stdio.h>
+
+1573212204 source:/home/student/ProiectC/alex.c
+	<stdio.h>
+
+1573212899 source:/home/student/ProiectC/tania.c
 	<stdio.h>
 
