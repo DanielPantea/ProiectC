@@ -4,10 +4,35 @@
 #include "func.h"
 
 int main() {
-     int x = 2;
 
-     ///using the function we created on x=2 will turn it to x=4... lets check
-     x = multiplication2(x);
+     int et , p, m[11][101];
+     printf("Introduceti numarul de etaje:"); scanf("%d", &et);
+     printf("Introduceti numarul de persoane pe etaj:"); scanf("%d", &p);
+     int i,j;
+     for(i = 0; i<et; i++)
+        for(j=0; j<p; j++)
+        {
+            printf("Introduceti taxa persoaiei %d de pe etajul %d", i, j);
+            scanf("%d", &m[i][j]);
+        }
+    int t;
+    printf("Introduceti:\n tasta 1 pentru sortarea crescatoare a persoanelor de pe un etaj in functie de taxa\n");
+    printf("tasta 2 pentru sortarea descrescatoare a persoanelor de pe un etaj in functie de taxa\n");
+    printf("tasta 3 pentru aflarea mediei taxelor persoanelor de pe un etaj\n");
+    printf("Introdu o tasta:");
+    scanf("%d", t);
+    switch(t)
+    {
+        case 1:
+            scanf("Alegeti un etaj:%d",k);
+            sort_et_pret_cresc(m[k], p);
+            break;
+        case 2: break;
+        case 3 :
+            scanf("Alegeti un etaj:%d",k);
+            media_et(m[k], p);
+            break;
+    }
 
-     printf("number is: %d\n", x);
+
 }
