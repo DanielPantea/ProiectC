@@ -8,3 +8,12 @@
 
 1573207788 /home/student/proiect/func.h
 
+1573209273 source:/home/student/ProiectC/main.c
+	<stdio.h>
+	"func.h"
+
+1573209273 /home/student/ProiectC/func.h
+
+1573209273 source:/home/student/ProiectC/func.c
+	<stdio.h>
+
