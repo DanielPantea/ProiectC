@@ -24,6 +24,7 @@ int main() {
     printf("tasta 2 pentru sortarea descrescatoare a persoanelor de pe un etaj in functie de taxa\n");
     printf("tasta 3 pentru aflarea mediei taxelor persoanelor de pe un etaj\n");
     printf("tasta 4 pentru afisarea persoanelor de pe un anumit etaj ce au de platit o suma mai mica decat suma data de la tastatura\n");
+    printf("tasta 5 pentru aflarea etajului cu suma maxima\n");
     printf("Introdu o tasta:");
     scanf("%d", &t);
     switch(t)
@@ -45,6 +46,12 @@ int main() {
                 scanf("%d%d",&k, &val);
                 Valori_sub_max(m[k-1],p,val);
                 break;
+
+
+        case 5 :
+                int etaj=max_et(m,p,et);
+                printf("%d",etaj);
+
     }
 
 

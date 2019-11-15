@@ -31,16 +31,37 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+<<<<<<< HEAD
+		<Unit filename="README.md" />
+=======
+>>>>>>> f85377989e16885a73047f53fdb33e6f9a9aad72
 		<Unit filename="alex.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="alex.h" />
+<<<<<<< HEAD
+		<Unit filename="func.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="func.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="proiect.cbp" />
+		<Unit filename="proiect.depend" />
+		<Unit filename="proiect.layout" />
+		<Unit filename="tania.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="tania.h" />
+=======
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="tania.c">
 			<Option compilerVar="CC" />
 		</Unit>
+>>>>>>> f85377989e16885a73047f53fdb33e6f9a9aad72
 		<Extensions>
 			<code_completion />
 			<debugger />
