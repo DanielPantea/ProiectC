@@ -11,10 +11,10 @@ float media_et(int m[101], int p)
 
 }
 
-float max_et(int m[11][101],int p)
+float max_et(int m[11][101],int p,int et)
 {
 
-    int i;
+    int i,k;
     float maxi=0;
     for(i=0; i<et; i++)
     {
@@ -22,10 +22,10 @@ float max_et(int m[11][101],int p)
         for(j=0; j<p; j++)
             sumet=sumet+m[i][j];
 
-        if (sumet>maxi) maxi=sumet;
+        if (sumet>maxi) {maxi=sumet;k=i;}
     }
 
-    return maxi;
+    return k;
 
 }
 
