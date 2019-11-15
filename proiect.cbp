@@ -31,10 +31,21 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+<<<<<<< HEAD
+		<Unit filename="README.md" />
+=======
+>>>>>>> d1c9c34d879126118889426597d37c3ecc87ced3
 		<Unit filename="alex.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="alex.h" />
+<<<<<<< HEAD
+		<Unit filename="func.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="func.h" />
+=======
+>>>>>>> d1c9c34d879126118889426597d37c3ecc87ced3
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>

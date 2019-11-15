@@ -58,11 +58,11 @@ int main()
         scanf("%d%d",&k, &val);
         Valori_sub_max(m[k-1],p,val);
         break;
-    case 5:
-        ;
-        int etaj=0;//max_et(m,p,et);
+    case 5: ;
+        int etaj=max_et(m,p,et);
         printf("%d",etaj);
         break;
+
 
     }
 
