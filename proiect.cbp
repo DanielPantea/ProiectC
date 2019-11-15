@@ -31,7 +31,14 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="alex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="alex.h" />
 		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="tania.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Extensions>
