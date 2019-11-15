@@ -18,7 +18,7 @@ float max_et(int m[11][101],int p,int et)
     float maxi=0;
     for(i=0; i<et; i++)
     {
-        sumet=0;
+        int sumet=0, j;
         for(j=0; j<p; j++)
             sumet=sumet+m[i][j];
 

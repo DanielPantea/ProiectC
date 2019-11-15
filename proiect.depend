@@ -29,3 +29,15 @@
 1573817475 source:/home/student/proiect/ProiectC/alex.c
 	<stdio.h>
 
+1573817891 source:/home/student/proiect/ProiectC/main.c
+	<stdio.h>
+	"func.h"
+	"tania.h"
+	"alex.h"
+
+1573815177 /home/student/proiect/ProiectC/func.h
+
+1573817771 /home/student/proiect/ProiectC/tania.h
+
+1573817485 /home/student/proiect/ProiectC/alex.h
+

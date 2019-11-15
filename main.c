@@ -7,13 +7,16 @@
 
 
 
-int main() {
+int main()
+{
 
-     int et , p, m[11][101],k,val,v[1111];
-     printf("Introduceti numarul de etaje: "); scanf("%d", &et);
-     printf("Introduceti numarul de persoane pe etaj: "); scanf("%d", &p);
-     int i,j;
-     for(i = 0; i<et; i++)
+    int et, p, m[11][101],k,val,v[1111];
+    printf("Introduceti numarul de etaje: ");
+    scanf("%d", &et);
+    printf("Introduceti numarul de persoane pe etaj: ");
+    scanf("%d", &p);
+    int i,j;
+    for(i = 0; i<et; i++)
         for(j=0; j<p; j++)
         {
             printf("Introduceti taxa persoaiei %d de pe etajul %d: ", j+1, i+1);
@@ -29,28 +32,28 @@ int main() {
     scanf("%d", &t);
     switch(t)
     {
-        case 1:
-            printf("Alegeti un etaj: ");
-            scanf("%d",&k);
-            sort_et_pret_cresc(m[k-1], p);
-            break;
-        case 2: break;
-        case 3 :
-            printf("Alegeti un etaj: ");
-            scanf("%d",&k);
-            float md = media_et(m[k-1], p);
-            printf("%f", md);
-            break;
-        case 4 :
-                printf("Alegeti un etaj si suma maxima : ");
-                scanf("%d%d",&k, &val);
-                Valori_sub_max(m[k-1],p,val);
-                break;
-
-
-        case 5 :
-                int etaj=max_et(m,p,et);
-                printf("%d",etaj);
+    case 1:
+        printf("Alegeti un etaj: ");
+        scanf("%d",&k);
+        sort_et_pret_cresc(m[k-1], p);
+        break;
+    case 2:
+        break;
+    case 3:
+        printf("Alegeti un etaj: ");
+        scanf("%d",&k);
+        float md = media_et(m[k-1], p);
+        printf("%f", md);
+        break;
+    case 4:
+        printf("Alegeti un etaj si suma maxima : ");
+        scanf("%d%d",&k, &val);
+        Valori_sub_max(m[k-1],p,val);
+        break;
+    case 5: ;
+        int etaj=0;//max_et(m,p,et);
+        printf("%d",etaj);
+        break;
 
     }
 
