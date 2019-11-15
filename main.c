@@ -10,14 +10,16 @@
 int main() {
 
      int et , p, m[11][101],k,val;
-     printf("Introduceti numarul de etaje: "); scanf("%d", &et);
-     printf("Introduceti numarul de persoane pe etaj: "); scanf("%d", &p);
+      FILE *f = fopen("date.in", "r");
+      printf ("Nr de etaje, nr de persoane de pe fiecare etaj si matricea cu taxele se vor citi din fisier");
+      fscanf(f,"%d", &et);
+      fscanf(f,"%d", &p);
      int i,j;
      for(i = 0; i<et; i++)
         for(j=0; j<p; j++)
         {
-            printf("Introduceti taxa persoaiei %d de pe etajul %d: ", j+1, i+1);
-            scanf("%d", &m[i][j]);
+
+            fscanf(f,"%d", &m[i][j]);
         }
     int t,k;
     printf("Introduceti:\n tasta 1 pentru sortarea crescatoare a persoanelor de pe un etaj in functie de taxa\n");
