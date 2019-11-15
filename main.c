@@ -52,6 +52,7 @@ int main() {
                 int etaj=max_et(m,p,et);
                 printf("%d",etaj);
 
+
     }
 
 
