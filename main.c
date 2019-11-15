@@ -9,7 +9,7 @@
 
 int main() {
 
-     int et , p, m[11][101];
+     int et , p, m[11][101],k,val;
      printf("Introduceti numarul de etaje: "); scanf("%d", &et);
      printf("Introduceti numarul de persoane pe etaj: "); scanf("%d", &p);
      int i,j;
@@ -39,6 +39,11 @@ int main() {
             float md = media_et(m[k-1], p);
             printf("%f", md);
             break;
+        case 4 :
+                printf("Alegeti un etaj si suma maxima : ");
+                scanf("%d%d",&k &val);
+                Valori_sub_max(m[k-1],p,val);
+                break;
     }
 
 
