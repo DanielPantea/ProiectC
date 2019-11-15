@@ -41,6 +41,7 @@
 		<Unit filename="tania.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="tania.h" />
 		<Extensions>
 			<code_completion />
 			<debugger />
