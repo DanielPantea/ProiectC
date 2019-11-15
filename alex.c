@@ -32,3 +32,21 @@ void Valori_sub_max(int v[101],int n,int val)
             printf("%d",i);
 
 }
+
+void Matrice_in_vector(int a[11][101],int v[1111],int val,int m,int n)
+{
+    printf("Afisarea tuturor persoanelor care au de platit o suma mai mica decat cea data");
+    int k=0,i,j;
+    for(i=0; i<m; i++)
+    {
+        for(j=0; j<n; j++)
+            if(a[i][j]<val)
+            {
+                v[k]=a[i][j];
+                k++;
+            }
+
+    }
+    for(i=0;i<k;i++)
+    printf("%d",v[i]);
+}

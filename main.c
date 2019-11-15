@@ -9,7 +9,7 @@
 
 int main() {
 
-     int et , p, m[11][101],k,val;
+     int et , p, m[11][101],k,val,v[1111];
      printf("Introduceti numarul de etaje: "); scanf("%d", &et);
      printf("Introduceti numarul de persoane pe etaj: "); scanf("%d", &p);
      int i,j;
@@ -19,7 +19,7 @@ int main() {
             printf("Introduceti taxa persoaiei %d de pe etajul %d: ", j+1, i+1);
             scanf("%d", &m[i][j]);
         }
-    int t,k;
+    int t;
     printf("Introduceti:\n tasta 1 pentru sortarea crescatoare a persoanelor de pe un etaj in functie de taxa\n");
     printf("tasta 2 pentru sortarea descrescatoare a persoanelor de pe un etaj in functie de taxa\n");
     printf("tasta 3 pentru aflarea mediei taxelor persoanelor de pe un etaj\n");
@@ -42,7 +42,7 @@ int main() {
             break;
         case 4 :
                 printf("Alegeti un etaj si suma maxima : ");
-                scanf("%d%d",&k &val);
+                scanf("%d%d",&k, &val);
                 Valori_sub_max(m[k-1],p,val);
                 break;
     }
