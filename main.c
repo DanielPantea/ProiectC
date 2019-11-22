@@ -46,6 +46,9 @@ int main()
         sort_et_pret_cresc(m[k-1], p);
         break;
     case 2:
+        printf("Alegeti un etaj: ");
+        scanf("%d",&k);
+        sort_et_pret_descresc(m[k-1], p);
         break;
     case 3:
         printf("Alegeti un etaj: ");

@@ -8,22 +8,24 @@
 
 1573207788 /home/student/proiect/func.h
 
-1573213495 source:/home/student/ProiectC/main.c
+1574423182 source:/home/student/ProiectC/main.c
 	<stdio.h>
 	"func.h"
+	"tania.h"
+	"alex.h"
 
-1573209220 /home/student/ProiectC/func.h
+1574422341 /home/student/ProiectC/func.h
 
-1573209220 source:/home/student/ProiectC/func.c
+1574422341 source:/home/student/ProiectC/func.c
 	<stdio.h>
 
 1573210099 source:/home/student/proiect/alex.c
 	<stdio.h>
 
-1573818086 source:/home/student/ProiectC/alex.c
+1574422341 source:/home/student/ProiectC/alex.c
 	<stdio.h>
 
-1573818086 source:/home/student/ProiectC/tania.c
+1574422341 source:/home/student/ProiectC/tania.c
 	<stdio.h>
 
 1573817475 source:/home/student/proiect/ProiectC/alex.c
@@ -40,4 +42,11 @@
 1573817771 /home/student/proiect/ProiectC/tania.h
 
 1573817485 /home/student/proiect/ProiectC/alex.h
+
+1574422341 /home/student/ProiectC/tania.h
+
+1574422341 /home/student/ProiectC/alex.h
+
+1574423235 source:/home/student/ProiectC/casi.c
+	<stdio.h>
 
